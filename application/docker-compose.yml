@@ -1,0 +1,35 @@
+services:
+
+  nginx:
+    build: ./nginx
+    container_name: nginx_cont
+    ports:
+      - "80:80"
+    depends_on:
+      - app
+    networks:
+      - app-network
+    restart: always
+
+  app:
+    build: .
+    container_name: python_app
+    restart: always
+    ports:
+      - "5000:5000"
+    env_file:
+      - ".env"
+    networks:
+      - app-network
+    environment:
+      MYSQL_PORT: 3306
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+  
+
+networks:
+  app-network:
+
+volumes:
+  mysql-data:
