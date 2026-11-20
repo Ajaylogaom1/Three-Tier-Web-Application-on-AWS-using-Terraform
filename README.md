@@ -191,17 +191,17 @@ By completing this project, I gained hands-on experience in:
 
 ## Project Screenshot
 
-!(images/1.png)
+![1](images/1.png)
 
-!(images/2.png)
+![2](images/2.png)
 
-!(images/3.png)
+![3](images/3.png)
 
-!(images/4.png)
+![4](images/4.png)
 
-!(images/5.png)
+![5](images/5.png)
 
-!(images/6.png)
+![6](images/6.png)
 
 ## Author
 
