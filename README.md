@@ -199,8 +199,6 @@ By completing this project, I gained hands-on experience in:
 
 ![4](images/4.png)
 
-![5](images/5.png)
-
 ![6](images/6.png)
 
 ## Author
