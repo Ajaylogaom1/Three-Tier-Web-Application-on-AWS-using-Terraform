@@ -189,6 +189,19 @@ By completing this project, I gained hands-on experience in:
 - Managing cloud infrastructure through Infrastructure as Code.
 - Deploying and troubleshooting cloud-hosted applications.
 
+## Project Screenshot
+
+!(images/1.png)
+
+!(images/2.png)
+
+!(images/3.png)
+
+!(images/4.png)
+
+!(images/5.png)
+
+!(images/6.png)
 
 ## Author
 
